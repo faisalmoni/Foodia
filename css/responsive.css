@@ -1,0 +1,672 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /*statistic css*/
+    .statistic-part .statistic_overlay .statistic-contant {
+        width: 300px;
+        height: 300px;
+        margin-left: -5px;
+    }
+
+    /*delicius css*/
+    .delicious_part .delci_img {
+        margin-bottom: -34px;
+    }
+
+    .delicious_part .delci_contant {
+        padding: 250px 60px 250px 60px;
+    }
+
+    /*package css*/
+    .package_part .single_pack a {
+        padding: 20px 85px;
+    }
+
+    /*footer css*/
+    .footer_part .about {
+        margin-left: -100%;
+    }
+
+    .footer_part .services {
+        margin-left: -70%;
+    }
+
+    .footer_part .follow {
+        margin-left: -50%;
+    }
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*sticky nav css*/
+    .navbar .nav-item .nav-link {
+        padding: 0 26px;
+    }
+
+    .banner_part .banner_overlay .ban_contant a {
+        padding: 18px 75px;
+    }
+
+    /*popular css*/
+    .popular_part .popular_overlay {
+        padding: 85px 0 85px 0;
+    }
+
+    .popular_part .popular_overlay .food_item {
+        padding-top: 55px;
+    }
+
+    .popular_part .popular_overlay .food_item p {
+        padding: 0 0px;
+    }
+
+    /*statistic css*/
+    .statistic-part .statistic_overlay {
+        padding: 84px 0 100px 0;
+    }
+
+    .statistic-part .statistic_overlay .statistic-contant {
+        width: 220px;
+        height: 220px;
+        margin-left: -5px;
+        padding-top: 69px;
+        margin-top: 65px;
+    }
+
+    .statistic-part .statistic_overlay .statistic-contant span {
+        font-size: 35px;
+    }
+
+    .statistic-part .statistic_overlay .statistic-contant h4 {
+        padding-top: 15px;
+        font-size: 20px;
+    }
+
+    /*our menu css*/
+    .our_menu_part {
+        padding: 85px 0 100px 0;
+    }
+
+    .our_menu_part .single-menu {
+        padding-top: 50px;
+    }
+
+    .our_menu_part .single-menu .menu-img {
+        padding-right: 25px;
+    }
+
+    .our_menu_part .single-menu .menu-text h4 {
+        padding-bottom: 10px;
+    }
+
+    /*delicius css*/
+
+    .delicious_part .delci_contant {
+        padding: 150px 50px 150px 50px;
+    }
+
+    .delicious_part .delci_contant h2 {
+        font-size: 55px;
+        padding-bottom: 25px;
+    }
+
+    .delicious_part .delci_contant a {
+        padding: 18px 55px;
+        font-size: 14px;
+        margin-top: 35px;
+    }
+
+    /*package css*/
+    .package_part {
+        padding: 85px 0 85px 0;
+    }
+
+    .package_part .single_pack {
+        padding: 45px 15px 27px 15px;
+        margin-top: 50px;
+    }
+
+    .package_part .single_pack .pack_img {
+        margin-bottom: 30px;
+        height: 90px;
+        padding-bottom: 0;
+    }
+
+    .package_part .single_pack h3 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .package_part .single_pack a {
+        padding: 10px 50px;
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    /*chef-css*/
+    .chef_part {
+        padding-top: 70px;
+    }
+
+    .chef_part .single_chef .chef_img {
+        margin-bottom: 30px;
+    }
+
+    .single_chef h3 {
+        top: 105%;
+    }
+
+    .chef_part .chef_overlay {
+        padding: 95px 0;
+    }
+
+    /*subscribe css*/
+    .subscribe_part {
+        padding: 85px 0 100px 0;
+    }
+
+    .subscribe_part form {
+        margin-top: 40px;
+    }
+
+    .subscribe_part form input {
+        width: 50%;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .subscribe_part form button {
+        width: 16%;
+        padding: 10px 15px;
+        font-size: 14px;
+        right: 172px;
+    }
+
+    /*footer css*/
+    .footer_part {
+        padding: 60px 0px 60px 0px;
+    }
+
+    .footer_part .about_us {
+        padding-right: 0px;
+    }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*common css*/
+    .section-title h2 {
+        font-size: 35px;
+    }
+
+    /*sticky nav css*/
+    .navbar.navbar-expand.navbar-light.p-0.Sticky {
+        display: none;
+    }
+
+    /*main menu css*/
+    .main_menu .logo {
+        padding-top: 40px;
+    }
+
+    .main_menu .menu li a {
+        padding: 0 20px;
+    }
+
+    /*banner css*/
+    .banner_part .banner_overlay .ban_contant {
+        padding-top: 250px;
+    }
+
+    .banner_part .banner_overlay .ban_contant h1 {
+        font-size: 110px;
+        padding-bottom: 20px;
+    }
+
+    .banner_part .banner_overlay .ban_contant a {
+        padding: 14px 60px;
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+
+    /*popular css*/
+    .popular_part .popular_overlay {
+        padding: 50px 0 60px 0;
+    }
+
+    .popular_part .popular_overlay .food_item {
+        padding-top: 40px;
+    }
+
+    .popular_part .popular_overlay .food_item h3 {
+        font-size: 25px;
+        padding: 10px 0 10px 0;
+    }
+
+    .popular_part .popular_overlay .food_item p {
+        padding: 0 0px;
+    }
+
+    /*statistic css*/
+    .statistic-part .statistic_overlay {
+        padding: 50px 0 80px 0;
+    }
+
+    .statistic-part .statistic_overlay .statistic-contant {
+        width: 165px;
+        height: 165px;
+        margin-left: -5px;
+        padding-top: 47px;
+        margin-top: 50px;
+    }
+
+    .statistic-part .statistic_overlay .statistic-contant span {
+        font-size: 25px;
+    }
+
+    .statistic-part .statistic_overlay .statistic-contant h4 {
+        padding-top: 10px;
+        font-size: 16px;
+    }
+
+    /*our menu css*/
+    .our_menu_part {
+        padding: 50px 0 70px 0;
+    }
+
+    .our_menu_part .single-menu {
+        padding-top: 50px;
+    }
+
+    .our_menu_part .single-menu .menu-img {
+        padding-right: 25px;
+    }
+
+    .our_menu_part .single-menu .menu-text h4 {
+        padding-bottom: 10px;
+    }
+
+    /*delicius css*/
+
+    .delicious_part .delci_contant {
+        padding: 90px 25px 90px 45px;
+    }
+
+    .delicious_part .delci_img {
+        margin-bottom: -128px;
+    }
+
+    .delicious_part .delci_contant h2 {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+    .delicious_part .delci_contant a {
+        padding: 14px 50px;
+        font-size: 14px;
+    }
+
+    /*package css*/
+    .package_part {
+        padding: 85px 0 85px 0;
+    }
+
+    .package_part .single_pack {
+        padding: 45px 15px 27px 15px;
+        margin-top: 50px;
+    }
+
+    .package_part .single_pack .pack_img {
+        margin-bottom: 30px;
+        height: 90px;
+        padding-bottom: 0;
+    }
+
+    .package_part .single_pack h3 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .package_part .single_pack a {
+        padding: 10px 50px;
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    /*chef-css*/
+    .chef_part {
+        padding-top: 70px;
+    }
+
+    .chef_part .single_chef .chef_img {
+        margin-bottom: 30px;
+    }
+
+    .single_chef h3 {
+        top: 105%;
+    }
+
+    .chef_part .chef_overlay {
+        padding: 95px 0;
+    }
+
+    /*subscribe css*/
+    .subscribe_part {
+        padding: 50px 0 65px 0;
+    }
+
+    .subscribe_part form {
+        margin-top: 40px;
+    }
+
+    .subscribe_part form input {
+        width: 70%;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .subscribe_part form button {
+        width: 20%;
+        right: 76px;
+        padding: 12px 15px;
+        font-size: 12px;
+    }
+
+    /*footer css*/
+    .footer_part {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .footer_part .about_us {
+        padding-right: 0px;
+    }
+}
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    /*common css*/
+    .section-title h2 {
+        font-size: 35px;
+    }
+
+    /*sticky nav css*/
+    .navbar.navbar-expand.navbar-light.p-0.Sticky {
+        display: none;
+    }
+
+    /*main menu css*/
+    .main_menu {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        z-index: 99999;
+    }
+
+    .main_menu .logo {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        background: #e74e4e;
+        width: 100%;
+        position: fixed;
+        left: 0;
+    }
+
+    .main_menu .logo a {
+        margin-left: 0px;
+        width: 170px;
+        height: 50px;
+    }
+
+    .logo a img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main_menu .menu {
+	background: rgb(231, 78, 78);
+	-webkit-transition: all 1.1s linear;
+	transition: all 1.1s linear;
+	border-top: 2px solid #fff;
+	position: fixed;
+	left: -100%;
+	width: 100%;
+	top: 63px;
+}
+
+    .menu.active_slide {
+        left: 0;
+    }
+
+    .main_menu .menu li {
+        display: block;
+    }
+
+    .main_menu .menu li a {
+        padding: 12px 20px;
+    }
+
+    .toggle_btn {
+        display: block;
+        position: fixed;
+        right: 18px;
+        top: 25px;
+        background: transparent;
+        border: 0;
+        outline: 0;
+    }
+
+    .toggle_btn span {
+        width: 25px;
+        height: 2px;
+        background: #fff;
+        display: block;
+        margin-bottom: 5px;
+        -webkit-transition: all .3s linear;
+        transition: all .3s linear;
+    }
+
+    .toggle_btn .humbar:nth-of-type(1) {
+        -webkit-transform: translateY(7px) rotate(-45deg);
+        transform: translateY(7px) rotate(-45deg);
+    }
+
+    .toggle_btn .humbar:nth-of-type(3) {
+        -webkit-transform: translateY(-7px) rotate(45deg);
+        transform: translateY(-7px) rotate(45deg);
+    }
+
+    .toggle_btn .humbar:nth-of-type(2) {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    /*banner css*/
+    .banner_part .banner_overlay .ban_contant {
+        padding-top: 150px;
+    }
+
+    .banner_part .banner_overlay .ban_contant h1 {
+        font-size: 70px;
+        padding-bottom: 10px;
+    }
+
+    .banner_part .banner_overlay .ban_contant a {
+        padding: 12px 50px;
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    /*popular css*/
+    .popular_part .popular_overlay {
+        padding: 50px 0 60px 0;
+    }
+
+    .popular_part .popular_overlay .food_item {
+        padding-top: 40px;
+    }
+
+    .popular_part .popular_overlay .food_item h3 {
+        font-size: 25px;
+        padding: 10px 0 10px 0;
+    }
+
+    .popular_part .popular_overlay .food_item p {
+        padding: 0 0px;
+    }
+
+    /*statistic css*/
+    .statistic-part .statistic_overlay {
+        padding: 50px 0 50px 0;
+    }
+
+    .statistic-part .statistic_overlay .statistic-contant {
+        width: 200px;
+        height: 200px;
+        margin-left: -5px;
+        padding-top: 73px;
+        margin-top: 0px;
+        margin: 20px auto;
+    }
+
+    .statistic-part .statistic_overlay .statistic-contant span {
+        font-size: 25px;
+    }
+
+    .statistic-part .statistic_overlay .statistic-contant h4 {
+        padding-top: 10px;
+        font-size: 16px;
+    }
+
+    /*our menu css*/
+    .our_menu_part {
+        padding: 50px 0 70px 0;
+    }
+
+    .our_menu_part .single-menu {
+        padding-top: 50px;
+    }
+
+    .our_menu_part .single-menu .menu-img {
+        padding-right: 25px;
+    }
+
+    .our_menu_part .single-menu .menu-text h4 {
+        padding-bottom: 10px;
+    }
+
+    /*delicius css*/
+
+    .delicious_part .delci_contant {
+        padding: 50px 0px 50px 20px;
+    }
+
+    .delicious_part .delci_img {
+        margin-bottom: -128px;
+    }
+
+    .delicious_part .delci_contant h2 {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+    .delicious_part .delci_contant a {
+        padding: 12px 50px;
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    /*package css*/
+    .package_part {
+        padding: 50px 0 50px 0;
+    }
+
+    .package_part .single_pack {
+        padding: 30px 15px 20px 15px;
+        margin-top: 40px;
+    }
+
+    .package_part .single_pack .pack_img {
+        margin-bottom: 20px;
+        height: 90px;
+        padding-bottom: 0;
+    }
+
+    .package_part .single_pack h3 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .package_part .single_pack a {
+        padding: 10px 50px;
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    /*chef-css*/
+    .chef_part {
+        padding-top: 50px;
+    }
+
+    .chef_part .single_chef .chef_img {
+        margin-bottom: 30px;
+        width: 230px;
+        height: 230px;
+    }
+
+    .single_chef h3 {
+        top: 105%;
+    }
+
+    .chef_part .chef_overlay {
+        padding: 68px 0;
+    }
+
+    /*subscribe css*/
+    .subscribe_part {
+        padding: 50px 0 50px 0;
+    }
+
+    .subscribe_part form {
+        margin-top: 30px;
+    }
+
+    .subscribe_part form input {
+        width: 80%;
+        padding: 7px 15px;
+        font-size: 13px;
+        margin-right: 55px;
+    }
+
+    .subscribe_part form button {
+        width: 30%;
+        right: 0px;
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    /*footer css*/
+    .footer_part {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .footer_part .about {
+        padding-top: 25px;
+    }
+
+    .footer_part .about_us {
+        padding-right: 0px;
+    }
+
+    .footer_part h4 {
+        padding-bottom: 25px;
+
+    }
+}
